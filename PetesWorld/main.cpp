@@ -86,8 +86,7 @@ int main()
 			std::cout << "Bahamas, Bahrain Arabian, Barbados, " << std::endl;
 		}
 	}
-
-	if (letter == 'c' || letter == 'C')
+	if (letter == 'c' || letter == 'C') // Written by Ian
 	{
 		if (region == 1)
 		{
@@ -111,7 +110,8 @@ int main()
 		}
 	}
 
-	if (letter == 'd' || letter == 'D')
+
+	if (letter == 'd' || letter == 'D') // Written by Ian
 	{
 		if (region == 1)
 		{
@@ -135,7 +135,31 @@ int main()
 		}
 	}
 
-	if (letter == 'w' || letter == 'W')
+	if (letter == 'v' || letter == 'V') // Added by Karol
+	{
+		if (region == 1)
+		{
+			std::cout << "Virgin Islands (US and UK), Venezuela" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Vatican City State" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "There is no V's in Africa" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Vietnam" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Vanuatu" << std::endl;
+		}
+	}
+
+	if (letter == 'w' || letter == 'W') // Added by Karol
 	{
 		if (region == 1)
 		{
@@ -159,7 +183,7 @@ int main()
 		}
 	}
 
-	if (letter == 'x' || letter == 'X')
+	if (letter == 'x' || letter == 'X') // Added by Karol
 	{
 		std::cout << "There is no country starting with X. Try again." << std::endl;
 
