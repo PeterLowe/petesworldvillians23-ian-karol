@@ -82,6 +82,29 @@ int main()
 			std::cout << "Bahamas, Bahrain Arabian, Barbados, " << std::endl;
 		}
 	}
+	if (letter == 'v' || letter == 'V')
+	{
+		if (region == 1)
+		{
+			std::cout << "Virgin Islands (US and UK), Venezuela" << std::endl;
+		}
+		if (region == 2)
+		{
+			std::cout << "Vatican City State" << std::endl;
+		}
+		if (region == 3)
+		{
+			std::cout << "There is no V's in Africa" << std::endl;
+		}
+		if (region == 4)
+		{
+			std::cout << "Vietnam" << std::endl;
+		}
+		if (region == 5)
+		{
+			std::cout << "Vanuatu" << std::endl;
+		}
+	}
 	if (letter == 'w' || letter == 'W')
 	{
 		if (region == 1)
