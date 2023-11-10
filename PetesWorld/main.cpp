@@ -23,7 +23,7 @@ int main()
 		return 0;
 	}
 
-	std::cout << "Pick a letter from A to B or Y to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to B or x to Z" << std::endl; // change this line each iteration
 
 	std::cin >> letter;
 	if (letter < 'A' || letter > 'Z') // not a capital letter
@@ -83,7 +83,11 @@ int main()
 		}
 	}
 
+	if (letter == 'x' || letter == 'X')
+	{
+		std::cout << "There is no country starting with X. Try again.";
 
+	}
 
 	if (letter == 'y' || letter == 'Y') //Written by Karol
 	{
