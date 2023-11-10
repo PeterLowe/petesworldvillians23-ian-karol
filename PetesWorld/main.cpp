@@ -24,9 +24,7 @@ int main()
 	}
 
 
-	std::cout << "Pick a letter from A to C or X to Z" << std::endl; // change this line each iteration
-
-	std::cout << "Pick a letter from A to B or W to Z" << std::endl; // change this line each iteration
+	std::cout << "Pick a letter from A to D or V to Z" << std::endl; // change this line each iteration
 
 
 	std::cin >> letter;
